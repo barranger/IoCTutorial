@@ -16,7 +16,7 @@ Since we are currently using Asp.Net MVC 4 (I believe), the best option currentl
 
 ## Sample Project
 
-To illustrate the concepts in this doc, I've created the worlds simplest project to go through these examples, that project can be found here: **TODO add link**
+To illustrate the concepts in this doc, I've created the worlds simplest project to go through these examples, that project can be found [here](https://github.com/barranger/IoCTutorial).
 
 The sample project will simply display a quote received form a quote service, that implements the `IQuoteService.cs` Interface
 
