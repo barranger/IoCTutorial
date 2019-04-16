@@ -1,8 +1,8 @@
-# Using IoC in Spently
+# Using IoC in ASP.NET MVC
 
 ## Why use IoC
 
-The reasons to use IoC are numerous, but specifically for the current state of Spently it will allow us to keep code isolated into functional components, and allow us to migrate those functional components to newer/more appropriate technologies.
+The reasons to use IoC are numerous, but specifically for ASP.NET it will allow you to keep code isolated into functional components, and allow you to migrate those functional components to newer/more appropriate technologies.
 
 Another major use for IoC is in testing.  Where you will use full database repositories for production, using static data is often more than enough for unit tests.
 
@@ -10,7 +10,7 @@ Another major use for IoC is in testing.  Where you will use full database repos
 
 ## Which IoC Container
 
-Since we are currently using Asp.Net MVC 4 (I believe), the best option currently is Unity (no not the game engine :) ).  Not that .Net core has it's own IoC tooling, but most, if not all, of the options here will be easily migrated when the time comes.
+Since you are currently using ASP.Net MVC , the best option currently is Unity (no not the game engine :) ).  Not that .NET Core has it's own IoC tooling, but most, if not all, of the options here will be easily migrated when the time comes.
 
 
 
